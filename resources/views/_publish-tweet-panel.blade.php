@@ -6,7 +6,7 @@
     name="body"
     class="w-full"
     placeholder="What's up doc?"
-    
+
 
     ></textarea>
 
@@ -17,6 +17,8 @@
       src="{{ auth()->user()->avatar }}"
       alt="your avatar"
       class="rounded-full mr-2"
+      width="40"
+      height="40"
       >
 
       <button
